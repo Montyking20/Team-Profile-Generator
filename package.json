@@ -1,6 +1,33 @@
 {
+  "name": "Team-Profile-Generator",
+  "version": "1.0.0",
+  "description": "DU BootCamp project to create node cli tool for team management ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyking20/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "team", "profile",
+    "generator"
+  ],
+  "author": "montyking20",
+  "bugs": {
+    "url": "https://github.com/montyking20/Team-Profile-Gneerator/issues"
+  },
+  "homepage": "https://github.com/montyking20/Team-Profile-Generator#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "inquirer": "^8.2.1",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
     "jest": "^27.5.1"
   }
 }
