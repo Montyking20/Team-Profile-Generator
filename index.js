@@ -83,7 +83,7 @@ const engineerQuestions = [
     {
         type: 'input',
         name: 'name',
-        message: "What is the Engineer's name?",
+        message: "What is the Engineers name?",
     },
     {
         type: 'input',
@@ -125,15 +125,15 @@ const manager = async () => {
     });
     const manager = await new Manager(questions.name, questions.id, questions.email, questions.officeNum)
     const managerHTML = `<div class="col">  
-        <div class="card h-100" style="width: 20rem; margin-left: 70pt;">    
+        <div class="card h-100" style="width: 20rem;">    
           <div class="card-color">
             <div class="card-body">
               <section class="card-header">  
-              <h5 class="card-title">${manager.name}</h5>
+              <h5 class="card-title">${manager.id}</h5>
               <h6 class="card-subtitle mb-2 text-muted">${manager.getRole()}</h6>
               </section>
               <label>ID:</label>
-                <a class="card-text">${manager.id}</a>
+                <a class="card-text">${manager.name}</a>
                 <br>
               <label>Email:</label>
                 <a href="mailto:${manager.email}" class="card-link">${manager.email}</a>
@@ -158,15 +158,15 @@ const menu = async () => {
     if(addTeamSelect === 'Intern') {
         let x = await internAdd()
         const internHTML = `<div class="col">
-        <div class="card h-5" style="width: 20rem;margin-left: -10pt;margin-top: 20pt;">
+        <div class="card h-5" style="width: 20rem;">
           <div class="card-color">
             <div class="card-body">
               <section class="card-header">
-              <h5 class="card-title">${x.name}</h5>
+              <h5 class="card-title">${x.id}</h5>
               <h6 class="card-subtitle mb-2 text-muted">${x.getRole()}</h6>
               </section>
               <label>ID:</label>
-                <a class="card-text">${x.id}</a>
+                <a class="card-text">${x.name}</a>
                 <br>
               <label>Email:</label>
                 <a href="mailto:${x.email}" class="card-link">${x.email}</a>
@@ -182,15 +182,15 @@ const menu = async () => {
     if(addTeamSelect === 'Engineer') {
         let x = await engineerAdd()
         const engineerHTML = `<div class="col"> 
-        <div class="card h-100" style="width: 20rem; margin-left: -50pt;">   
+        <div class="card h-100" style="width: 20rem;">   
           <div class="card-color" >
             <div class="card-body">
                 <section class="card-header">
-                <h5 class="card-title">${x.name}</h5>
+                <h5 class="card-title">${x.id}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">${x.getRole()}</h6>
                 </section>
                 <label>ID:</label>
-                  <a class="card-text"> ${x.id}</a>
+                  <a class="card-text"> ${x.name}</a>
                   <br>
                 <label>Email:</label>  
                   <a href="mailto:${x.email}" class="card-link" style="background-color: #fff;">${x.email}</a> 

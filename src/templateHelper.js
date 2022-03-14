@@ -13,7 +13,7 @@ const templateHelper= (html) => {
         <header class="header">
         <h1>The Team</h1>
         </header>
-        <main class="container"style="margin-right: 45pt; margin-top: 60pt;">
+        <main class="container"style="margin-right: 45pt; margin-top: 30pt;">
         <div class="row row-cols-1 row-cols-md-3 g-4" style="vertical-align: middle; ; justify-content: center;">
             ${html}
    
