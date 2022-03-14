@@ -1,48 +1,130 @@
-<!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Team Profile Generator</title>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-            <link rel="stylesheet" href="./style.css">
-        </head>
-        <body>
-            <main>
-                <div class="card col-lg-3 col-md-5 col-sm-8" style="width: 18rem;">
-            <div class="card-header">
-              Manager
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <title>Team Profile Generator</title>
+  </head>
+  <body>
+        <header class="header">
+            <h1>The Team!</h1>
+        </header>
+        <main class="container"style="margin-right: 45pt; margin-top: 60pt;
+    ">
+           
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="vertical-align: middle; ; justify-content: center;">
+              
+          <div class="col">  
+            <div class="card h-100" style="width: 20rem; margin-left: 70pt;">    
+              <div class="card-color">
+                <div class="card-body">
+                  <section class="card-header">  
+                  <h5 class="card-title">NAME</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Manager</h6>
+                  </section>
+                  <label>ID:</label>
+                    <a class="card-text">1</a>
+                    <br>
+                  <label>Email:</label>
+                    <a href="mailto:manager@business.mail.com" class="card-link">manager@business.mail.com</a>
+                    <br>
+                  <label>Office number:</label>
+                   <a class="card-text">3340</a>
+                </div>
+              </div>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Employee ID: 10</li>
-              <li class="list-group-item">Name: Billy Bob</li>
-              <li class="list-group-item">Email: <a href="mailto:bossman@bossguys.com">bossman@bossguys.com</a></li>
-              <li class="list-group-item">Office Number: 1010</li>
-            </ul>
           </div>
-<div class="card col-lg-3 col-md-5 col-sm-8" style="width: 18rem;">
-            <div class="card-header">
-              Engineer
+           
+          <div class="col">
+            <div class="card h-100" style="width: 20rem;">   
+              <div class="card-color" >
+                <div class="card-body">
+                    <section class="card-header">
+                    <h5 class="card-title">NAME</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Engineer</h6>
+                    </section>
+                    <label>ID:</label>
+                      <a class="card-text">2</a>
+                      <br>
+                    <label>Email:</label>  
+                      <a href="mailto:Engineer@business.mail.com" class="card-link" style="background-color: #fff;">Engineer@business.mail.com</a> 
+                      <br>
+                    <label>Github:</label>
+                      <a href="https://github.com/engineer" class="card-link">engineer</a>
+                </div>
+              </div>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Employee ID: 20</li>
-              <li class="list-group-item">Name: Benny Buttons</li>
-              <li class="list-group-item">Email: <a href="mailto:dontpushmybuttons@buttons.com">dontpushmybuttons@buttons.com</a></li>
-              <li class="list-group-item">GitHub: <a href="https://github.com/benny-buttons" target="_blank">benny-buttons</a></li>
-            </ul>
           </div>
-<div class="card col-lg-3 col-md-5 col-sm-8" style="width: 18rem;">
-            <div class="card-header">
-              Intern
+
+          <div class="col"> 
+            <div class="card h-100" style="width: 20rem; margin-left: -50pt;">   
+              <div class="card-color" >
+                <div class="card-body">
+                    <section class="card-header">
+                    <h5 class="card-title">NAME</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Engineer</h6>
+                    </section>
+                    <label>ID:</label>
+                      <a class="card-text">3</a>
+                      <br>
+                    <label>Email:</label>  
+                      <a href="mailto:Engineer@business.mail.com" class="card-link" style="background-color: #fff;">Engineer@business.mail.com</a> 
+                      <br>
+                    <label>Github:</label>
+                      <a href="https://github.com/engineer" class="card-link">engineer</a>
+                </div>
+              </div>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Employee ID: 3030</li>
-              <li class="list-group-item">Name: Bubby Bubbers</li>
-              <li class="list-group-item">Email: <a href="mailto:bubby@freelabor.com">bubby@freelabor.com</a></li>
-              <li class="list-group-item">School: Hard Knox</li>
-            </ul>
           </div>
-            </main>
-        </body>
-        </html>
+
+          <div class="col">
+            <div clas="card h-100" style="width: 20rem;margin-left: 50pt;margin-top: 20pt;">
+              <div class="card-color">
+                <div class="card-body">
+                  <section class="card-header">
+                  <h5 class="card-title">NAME</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Intern</h6>
+                  </section>
+                  <label>ID:</label>
+                    <a class="card-text">4</a>
+                    <br>
+                  <label>Email:</label>
+                    <a href="mailto:intern@intern.mail.com" class="card-link">intern@intern.mail.com</a>
+                    <br>
+                  <label>School:</label>
+                    <a class="card-text">Denver University</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-5" style="width: 20rem;margin-left: -10pt;margin-top: 20pt;">
+              <div class="card-color">
+                <div class="card-body">
+                  <section class="card-header">
+                  <h5 class="card-title">NAME</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Intern</h6>
+                  </section>
+                  <label>ID:</label>
+                    <a class="card-text">5</a>
+                    <br>
+                  <label>Email:</label>
+                    <a href="mailto:intern@intern.mail.com" class="card-link">intern@intern.mail.com</a>
+                    <br>
+                  <label>School:</label>
+                    <a class="card-text">Denver University</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+       
+       
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+</html>
