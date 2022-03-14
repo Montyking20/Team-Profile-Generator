@@ -48,7 +48,7 @@ get clone gh repo clone Montyking20/Team-Profile-Generator
  npm test
 ```
 
-![Testing gif](./assets/Video/Team-Profile-Generatornpmtest.gif)
+![Testing gif](./Assets/Video/Team-Profile-Generatornpmtest.gif)
 
 
 ### How to run
@@ -57,31 +57,31 @@ get clone gh repo clone Montyking20/Team-Profile-Generator
 npm start
 ```
 
-![Start gif](./assets/Video/Team-Profile-Generatornpmstart.gif)
+![Start gif](./Assets/Video/Team-Profile-Generatornpmstart.gif)
 
 
 <br>
 <br>
 
-### Links
+## Links
 
-## [Team-Profile-Generator](https://montyking20.github.io/Team-Profile-Generator/)
+### [Team-Profile-Generator](https://montyking20.github.io/Team-Profile-Generator/)
 
 <br>
 <br>
 
 ## What it looked like
 
-![website picture](./assets/images/screenshot-main.jpg)
+![Team-Profile-Generator](./Assets/images/screenshot-main.jpg)
 
 <br>
 
 ## Other examples
 
-_For more examples, please refer to the [VIDEO](./assets/Video/Team-Profile-Generator.webm)_
+_For more examples, please refer to the [VIDEO](./Assets/Video/Team-Profile-Generator.webm)_
 
-_For more examples, please refer to the [VIDEO](./assets/Video/Team-Profile-Generator.webm)_
+_For more examples, please refer to the [VIDEO](./Assets/Video/Team-Profile-Generator.webm)_
 
-_For more examples, please refer to the [VIDEO](./assets/Video/Team-Profile-Generatornpmtest.webm)_
+_For more examples, please refer to the [VIDEO](./Assets/Video/Team-Profile-Generatornpmtest.webm)_
 
-_For more examples, please refer to the [VIDEO](./assets/Video/Team-Profile-Generatornpmstart.webm)_
+_For more examples, please refer to the [VIDEO](./Assets/Video/Team-Profile-Generatornpmstart.webm)_
