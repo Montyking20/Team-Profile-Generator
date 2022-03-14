@@ -1,4 +1,4 @@
- # Chris' Updated Portfolio Page
+ # Team Profile Generator
  
  
 ##  What is the project?
@@ -48,7 +48,7 @@ get clone gh repo clone Montyking20/Team-Profile-Generator
  npm test
 ```
 
-![Testing gif](/assets/Video/Team-Profile-Generatornpmtest.gif)
+![Testing gif](./assets/Video/Team-Profile-Generatornpmtest.gif)
 
 
 ### How to run
@@ -57,7 +57,7 @@ get clone gh repo clone Montyking20/Team-Profile-Generator
 npm start
 ```
 
-![Start gif](/assets/Video/Team-Profile-Generatornpmstart.gif)
+![Start gif](./assets/Video/Team-Profile-Generatornpmstart.gif)
 
 
 <br>
@@ -72,7 +72,7 @@ npm start
 
 ## What it looked like
 
-![website picture](/assets/images/screenshot-main.jpg)
+![website picture](./assets/images/screenshot-main.jpg)
 
 <br>
 
