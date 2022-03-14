@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest",
-    "watch": "nodemon index.jsnode ",
-    "install":  "npm i inquirer" && "npm i jest"
+    "watch": "nodemon index.jsnode "
+   
   },
   "repository": {
     "type": "git",
