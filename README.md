@@ -72,7 +72,7 @@ npm start
 
 ## What it looked like
 
-![Team-Profile-Generator](./Assets/images/screenshot-main.jpg)
+![Team-Profile-Generator](./Assets/images/Screenshot-main.jpg)
 
 <br>
 
